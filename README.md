@@ -1,121 +1,96 @@
-Web Development Final Project - Baking Cubit 🍰 Submitted by: Heba Tharhan
+# 🍰 Baking Cubit
 
-This web app: is a cozy, pastel-themed social feed where users can share their baked creations, upvote others’ posts, leave sweet comments, and even edit or update their own bakes.
+**Submitted by:** Heba Tharhan  
 
-Time spent: ~20 hours total
+Welcome to **Baking Cubit** — your cozy corner of the internet where bakers can share their sweet creations, upvote posts, leave comments, and sprinkle a little love on every bake! 🧁✨  
 
-✅ Required Features The following required functionality is completed:
+---
 
-Web app includes a create form that allows the user to create posts
+## 🌸 About
+Baking Cubit is a pastel-themed social feed for baking enthusiasts! Users can:
+- Share their baked goods 🥐🍩
+- Upvote others’ posts 👍
+- Leave sweet comments 💌
+- Edit or update their own bakes 📝
 
-Users must enter a post title
+This project was completed in ~20 hours.  
 
-Optional fields for:
+---
 
-Post description/content
+## ✅ Features
 
-An image via external URL
+### Core Features
+- **Create Posts**  
+  Users can create posts with:  
+  - **Title** (required)  
+  - Description/content (optional)  
+  - Image via external URL (optional)  
+  - Tags (optional)
 
-Tags
+- **Home Feed**  
+  Displays previously created posts with:  
+  - Title  
+  - Creation time (formatted nicely)  
+  - Upvote count  
+  - Clickable posts for detailed view  
 
-Web app includes a home feed displaying previously created posts
+- **Post Interaction**  
+  - View full content, image, tags, and comments  
+  - Leave comments 💬  
+  - Upvote posts multiple times 🔼  
+  - Edit or delete your posts ✏️🗑️  
 
-Feed displays:
+- **Search & Sort**  
+  - Search by post title (case-insensitive)  
+  - Sort by time/upvotes (planned/partially implemented)  
 
-Title
+---
 
-Creation time (formatted)
+### 🌟 Optional Features
+- Custom CSS with pastel, bakery-inspired color palette 🍩  
+- Google Fonts: **Fredoka** & **Quicksand**  
+- Styled buttons, input fields, and pastel-themed post cards  
+- Pseudo-authentication or user ID  
+- Repost with post ID & threaded linking  
+- Image uploads via external URL  
+- Categorize posts with flags  
+- Loading animation for fetch calls  
 
-Upvote count
+---
 
-Clicking a post opens its detailed view
+### 🎁 Extra Sweet Additions
+- **AI Assistant Chatbot 🤖**  
+  Ask baking questions to a Gemini-powered bot  
+- **Tag UI System**  
+  Color-coded, soft bubble tags  
+- **Responsive Layout**  
+  Works beautifully on both mobile and desktop  
+- Consistent styling using CSS variables and reusable button classes  
 
-Users can view posts in different ways
+---
 
-Search by title (case-insensitive)
+## 🎥 Video Walkthrough
+Check out all the features in action:  
+[Loom Walkthrough](https://www.loom.com/share/06f5632db6534a549ee771f51f18d7a0?sid=0160567b-5099-4614-8909-6c904ac90f21)  
 
-(✅ Sort by time/upvotes — Planned or partially implemented)
+---
 
-Users can interact with each post
+## 🧁 Notes & Challenges
+- Managing post updates with `localStorage` while keeping comments & upvotes intact  
+- Ensuring consistent styles across HTML elements & React components  
+- Matching chatbot UI to the cozy pastel theme  
+- Styling forms and lists to look clean and user-friendly  
 
-Each post has a dedicated page showing:
+---
 
-Full content
+## 📄 License
 
-Uploaded image (if present)
+**MIT License**  
 
-Tags
+Copyright (c) 2025 Heba  
 
-Comments
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  
 
-Users can:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  
 
-Leave comments
-
-Upvote (multiple times allowed)
-
-A user can edit or delete their posts
-
-Edit form is prefilled with existing content
-
-Save changes to update the post
-
-Delete button to delete a post 🌟 Optional Features The following optional features are implemented:
-
-Users can customize the interface
-
-Custom CSS using a soft, bakery-inspired color palette 🍩
-
-Fonts used: Fredoka and Quicksand from Google Fonts
-
-Styled buttons, input fields, and pastel-themed post cards
-
-Pseudo-authentication or user ID
-
-Repost with post ID & threaded linking
-
-Upload image files (currently only external URL)
-
-Set flags or categorize posts
-
-Loading animation for fetch calls
-
-🎁 Additional Features Integrated an AI Assistant Chatbot 🤖
-
-Users can ask baking questions to a Gemini-powered bot
-
-Tag UI system: soft color-coded bubbles for tags
-
-Responsive layout for mobile and desktop
-
-Consistent styling across all pages using CSS variables and reusable btn classes
-
-🎥 Video Walkthrough Here's a walkthrough of the implemented features:
-
-
-
-Loom link: https://www.loom.com/share/06f5632db6534a549ee771f51f18d7a0?sid=0160567b-5099-4614-8909-6c904ac90f21
-🧁 Notes Challenges: Managing post updates via localStorage while preserving comments and upvotes
-
-Ensuring consistent styles across both default HTML elements and React components
-
-Customizing the chatbot UI to match the rest of the theme
-
-Styling forms and lists to look clean but also user-friendly
-
-📄 License sql Copy Edit MIT License
-
-Copyright (c) 2025 Heba
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
