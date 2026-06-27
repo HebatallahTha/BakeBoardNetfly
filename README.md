@@ -2,7 +2,8 @@
 
 **Submitted by:** Heba Tharhan  
 
-Welcome to **Baking Cubit** — your cozy corner of the internet where bakers can share their sweet creations, upvote posts, leave comments, and sprinkle a little love on every bake! 🧁✨  
+Welcome to **Baking Cubit** — your cozy corner of the internet where bakers can share their sweet creations, upvote posts, leave comments, and sprinkle a little love on every bake! 🧁✨ 
+https://bakeboard.netlify.app
 
 ---
 
